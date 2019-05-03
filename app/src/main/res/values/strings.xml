@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DaggerMvvmExample</string>
+    <string name="greeting_error">we got problems</string>
 </resources>
