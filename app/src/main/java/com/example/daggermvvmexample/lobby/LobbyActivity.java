@@ -1,9 +1,11 @@
-package com.example.daggermvvmexample;
+package com.example.daggermvvmexample.lobby;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.daggermvvmexample.R;
+
+public class LobbyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
