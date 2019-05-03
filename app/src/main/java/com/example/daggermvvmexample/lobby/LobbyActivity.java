@@ -41,7 +41,7 @@ public class LobbyActivity extends AppCompatActivity {
 
         viewModel = ViewModelProviders.of(this, viewModelFactory)
                 .get(LobbyViewModel.class);
-        viewModel.response().observe(this, response -> {});
+        viewModel.response().observe(this, this::processResponse);
     }
 
     @OnClick(R.id.common_greeting_button)
